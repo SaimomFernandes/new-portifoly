@@ -3,8 +3,15 @@ import { BiFileBlank } from "react-icons/bi";
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 flex h-20 items-center justify-between bg-slate-900/80 px-8 backdrop-blur-md">
-        <div className="text-lg font-bold tracking-wider text-emerald-400">
-            &lt;FS /&gt;
+        <div className="flex flex-col items-center gap-1 pt-20 mt-4">
+            {/* Foto maior (Aumentou de 36px para 56px) */}
+            <div className="w-34 h-34   rounded-full overflow-hidden border border-emerald-500/40 bg-slate-800  shadow-lg shadow-emerald-500/5">
+              <img src="/minhafotodecapa.jpg" alt="Maurício" className="w-full h-full object-cover" />
+            </div>
+            {/* Logo centralizado logo abaixo da foto com fonte um pouco menor para equilibrar */}
+            <div className="text-xs font-bold tracking-widest text-emerald-400 font-mono">
+              &lt;FS /&gt;
+           </div>
         </div>
         
         <nav className="flex items-center gap-8 text-sm font-medium tracking-wide">
