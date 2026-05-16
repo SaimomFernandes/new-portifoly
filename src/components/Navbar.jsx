@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
 
                     // sticky top-0 z-40 flex                                       h-20 items-center justify-between bg-slate-900/80 px-8 backdrop-blur-md 
-    <header className="sticky top-0 z-40 flex flex-col sm:flex-row sm:mb-0 sm:justify-between sm:mt-2 gap-4 mb-8 mt-32 h-20 items-center justify-center bg-slate-900/80 px-8 backdrop-blur-md  ">
+    <header className=" top-0 z-40 flex flex-col sm:flex-row sm:mb-0 sm:justify-between sm:mt-2 gap-4 mb-16 mt-32 h-20 items-center justify-center bg-slate-900/80 px-8 backdrop-blur-md  ">
         <div className="flex flex-col items-center gap-1 pt-20 mt-4">
             {/* Foto maior (Aumentou de 36px para 56px) */}
             <div className="w-20 h-20 sm:w-38 sm:h-38   rounded-full overflow-hidden border border-emerald-500/40 bg-slate-800  shadow-lg shadow-emerald-500/5">
