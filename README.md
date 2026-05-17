@@ -62,4 +62,4 @@ O Vite gerará os arquivos prontos para produção dentro da pasta `/dist`.
 Este projeto está sob a licença MIT. Sinta-se livre para usar e adaptar para o seu próprio portfólio!
 
 ---
-Desenvolvido por **Seu Nome Aqui** ⚡
+Desenvolvido por Mauricio Fernandes ⚡
