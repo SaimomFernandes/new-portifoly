@@ -21,7 +21,7 @@ export default function Navbar() {
             <a href="#projetos" className="text-slate-400 transition-colors hover:text-emerald-400">Projetos</a>
             <a href="#contato" className="text-slate-400 transition-colors hover:text-emerald-400">Contato</a>
              <a 
-              href="/curriculo.pdf" 
+              href="/Curriculo.pdf" 
               download="Curriculo_Desenvolvedor_FullStack.pdf"
               className="flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-1.5 text-xs text-emerald-400 transition-all hover:bg-emerald-500 hover:text-slate-950"
             >
